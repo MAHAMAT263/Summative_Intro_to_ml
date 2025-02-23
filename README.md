@@ -18,13 +18,14 @@ Source: https://www.kaggle.com/code/youssefelbadry10/loan-approval-classificatio
 
 
 
+
 ## 📝 Summary Table
 | Model Name                      | Regularization Technique | Optimizer | Early Stopping | Dropout Rate | Test Accuracy | F1 Score   | Recall     | Precision  |
 | ------------------------------- | ------------------------ | --------- | -------------- | ------------ | ------------- | ---------- | ---------- | ---------- |
 | Logistic Regression             | None                     | N/A       | None           | None         | **91.00%**    | **0.91**   | **0.91**   | **0.91**   |
-| Optimized\_NN\_Adam             | None                     | Adam      | **Yes**        | None         | **93.72%**    | **0.9381** | **0.9288** | **0.9476** |
-| NN\_SGD                         | None                     | SGD       | **Yes**        | None         | **90.80%**    | **0.9124** | **0.9355** | **0.8905** |
-| NN\_RMSprop                     | None                     | RMSprop   | **Yes**        | None         | **93.38%**    | **0.9356** | **0.9380** | **0.9331** |
-| NN\_RMSprop\_L1\_Regularization | L1 Regularization        | RMSprop   | **Yes**        | None         | **90.82%**    | **0.9141** | **0.9537** | **0.8777** |
-| NN\_Dropout                     | None                     | SGD       | **Yes**        | 0.2          | **90.64%**    | **0.9110** | **0.9355** | **0.8878** |
-| NN\_L2\_Regularization          | L2 Regularization        | SGD       | **Yes**        | None         | **91.03%**    | **0.9143** | **0.9340** | **0.8954** |
+| Optimized\_NN\_Adam             | None                     | Adam      | **Yes**        | None         | **93.64%**    | **0.9378** | **0.9352** | **0.9402** |
+| NN\_SGD                         | None                     | SGD       | **Yes**        | None         | **90.19%**    | **0.9068** | **0.9314** | **0.8834** |
+| NN\_RMSprop                     | None                     | RMSprop   | **Yes**        | None         | **93.46%**    | **0.9365** | **0.9416** | **0.9315** |
+| NN\_RMSprop\_L1\_Regularization | L1 Regularization        | RMSprop   | **Yes**        | None         | **91.45%**    | **0.9180** | **0.9340** | **0.9025** |
+| NN\_Dropout                     | None                     | SGD       | **Yes**        | 0.2          | **90.20%**    | **0.9071** | **0.9340** | **0.8817** |
+| NN\_L2\_Regularization          | L2 Regularization        | SGD       | **Yes**        | None         | **90.79%**    | **0.9117** | **0.9277** | **0.8962** |
